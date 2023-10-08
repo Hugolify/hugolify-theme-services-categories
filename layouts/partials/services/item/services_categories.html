@@ -1,0 +1,9 @@
+{{ with .GetTerms "services_categories" }}
+  <div class="list-services_categories">
+    <ul>
+      {{ range . }}
+        <li>{{ .Title }}</li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

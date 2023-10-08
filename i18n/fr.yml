@@ -1,0 +1,8 @@
+services_categories:
+  all: Tous les catégories
+  discover: Découvrir la catégorie
+  latest: Derniers catégories
+  more: Découvrir plus de catégories
+  title:
+    one: Catégorie
+    other: Catégories
