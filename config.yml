@@ -13,6 +13,6 @@ module:
 
 # Default
 permalinks:
-  services_categories: /services/tags/:slug/
+  services_categories: /services/categories/:slug/
 taxonomies:
   services_tag: services_categories
