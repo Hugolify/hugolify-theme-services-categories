@@ -1,10 +1,3 @@
-{{ with .GetTerms "services_categories" }}
-  <div class="list-services_categories">
-    <p>{{ i18n "services_categories.title" (. | len) }}</p>
-    <ul>
-      {{ range . }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-  </div>
+{{ range first 1 (.GetTerms "services_categories") }}
+  <p class="surtitle">{{ partial "func/PrepareHTML" .Title }}</p>
 {{ end }}

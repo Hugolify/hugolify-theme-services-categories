@@ -1,9 +1,5 @@
 {{ with .GetTerms "services_categories" }}
-  <div class="list-services_categories">
-    <ul>
-      {{ range . }}
-        <li>{{ .Title }}</li>
-      {{ end }}
-    </ul>
-  </div>
+  {{ range . }}
+    <p class="category" itemprop="category">{{ partial "func/PrepareHTML" .Title }}</p>
+  {{ end }}
 {{ end }}
