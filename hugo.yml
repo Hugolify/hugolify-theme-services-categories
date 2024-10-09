@@ -15,4 +15,9 @@ module:
 permalinks:
   services_categories: /services/categories/:slug/
 taxonomies:
-  services_tag: services_categories
+  services_category: services_categories
+
+params:
+  admin:
+    collections:
+      services_categories: true
