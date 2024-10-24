@@ -20,4 +20,5 @@ taxonomies:
 params:
   admin:
     collections:
-      services_categories: true
+      services_categories:
+        enable: true
