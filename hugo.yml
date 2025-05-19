@@ -13,12 +13,21 @@ module:
 
 # Default
 permalinks:
-  services_categories: /services/categories/:slug/
+  taxonomy:
+    services_categories: /services/categories/:slug/
+  term:
+    services_categories: /services/categories/:slug/
 taxonomies:
   services_category: services_categories
 
+# Admin
 params:
   admin:
     collections:
       services_categories:
         enable: true
+        filter:
+          - field: isIndex
+            value: false
+        icon:
+          sveltiacms: bookmarks
