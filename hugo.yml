@@ -30,4 +30,9 @@ params:
           - field: isIndex
             value: false
         icon:
-          sveltiacms: bookmarks
+          bootstrap_icons: bookmarks
+          iconoir: bookmarks
+          lucide: bookmark
+          material_icons: bookmarks
+          material_symbols: bookmarks
+          sveltiacms: bookmarks # legacy
