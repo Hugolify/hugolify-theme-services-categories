@@ -14,7 +14,7 @@ module:
 # Default
 permalinks:
   taxonomy:
-    services_categories: /services/categories/:slug/
+    services_categories: /services/categories/
   term:
     services_categories: /services/categories/:slug/
 taxonomies:

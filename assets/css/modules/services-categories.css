@@ -1,0 +1,12 @@
+/* css/modules/services-categories.css: hugolify-theme-services-categories entry point */
+
+/* Tokens */
+@import '../tokens/services-categories.css';
+
+/* Components */
+@import '../components/services-category.css';
+@import '../components/services-categories.css';
+
+/* Pages */
+@import '../pages/services-category.css';
+@import '../pages/services-categories.css';

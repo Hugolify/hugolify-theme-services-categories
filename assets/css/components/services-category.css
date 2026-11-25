@@ -1,0 +1,11 @@
+/* components/services-category.css */
+/*
+ * Usage: <article class="item services_category">
+ */
+@layer components {
+  .services_category {
+    .btn {
+      display: none;
+    }
+  }
+}
