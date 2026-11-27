@@ -31,6 +31,7 @@ params:
             value: false
         icon:
           bootstrap_icons: bookmarks
+          hugeicons: Bookmark01
           iconoir: bookmarks
           lucide: bookmark
           material_icons: bookmarks
